@@ -1,0 +1,71 @@
+<!-- Sign up page for the Belay Buddies Application
+    Authored by: t.chen
+    Last Update: 12/7/2017
+    Should Include:
+        -Username
+        -Password
+        -First Name Input
+        -Last Name Input
+        -Gender
+        -Date of Birth
+        -Email
+        -Climbing Interest: Bouldering, Top Roping, Lead Climbing, Sport Climbing, etc.
+        -Geographical Area
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BelayBuddy Sign-Up</title>
+    <link href="signUpFormStyle.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Belay Buddy Sign Up</h1>
+
+    <label><b>Username</b></label>
+    <br>
+    <input type="text" placeholder="e.g. bestclimberever" name="userName">
+    <br>
+    <br>
+    <label><b>Password</b></label>
+    <br>
+    <input type="password" placeholder="e.g. password" name="password">
+    <br>
+    <br>
+    <label><b>Gender</b></label>
+    <br>
+    <select name="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="noIdentification">Choose Not to Identify</option>
+    </select>
+    <br>
+    <br>
+    <label><b>Date of Birth</b></label>
+    <br>
+    <input type="date" name="dob">
+    <br>
+    <br>
+    <label><b>Email Address</b></label>
+    <br>
+    <input type="email" placeholder="e.g. rockclimber@rock.com" name="email">
+    <br>
+    <br>
+    <label><b>Climbing Interests</b></label>
+    <br>
+    <label>Bouldering</label>
+    <input type="checkbox" name="bouldering">
+    <label>Lead Climbing</label>
+    <input type="checkbox" name="lead">
+    <label>Sport Climbing</label>
+    <input type="checkbox" name="sport">
+    <label>Speed Climbing</label>
+    <input type="checkbox" name="speed">
+    <label>Top Roping</label>
+    <input type="checkbox" name="toprope">
+    <br>
+    <br>
+    <button type="submit">Sign up</button>
+
+</body>
+</html>
