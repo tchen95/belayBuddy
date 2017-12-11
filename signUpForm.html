@@ -18,54 +18,70 @@
     <meta charset="UTF-8">
     <title>BelayBuddy Sign-Up</title>
     <link href="signUpFormStyle.css" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Mukta|Slabo+27px" rel="stylesheet"></head>
 <body>
-    <h1>Belay Buddy Sign Up</h1>
-
-    <label><b>Username</b></label>
-    <br>
-    <input type="text" placeholder="e.g. bestclimberever" name="userName">
-    <br>
-    <br>
-    <label><b>Password</b></label>
-    <br>
-    <input type="password" placeholder="e.g. password" name="password">
-    <br>
-    <br>
-    <label><b>Gender</b></label>
-    <br>
-    <select name="gender">
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-        <option value="noIdentification">Choose Not to Identify</option>
-    </select>
-    <br>
-    <br>
-    <label><b>Date of Birth</b></label>
-    <br>
-    <input type="date" name="dob">
-    <br>
-    <br>
-    <label><b>Email Address</b></label>
-    <br>
-    <input type="email" placeholder="e.g. rockclimber@rock.com" name="email">
-    <br>
-    <br>
-    <label><b>Climbing Interests</b></label>
-    <br>
-    <label>Bouldering</label>
-    <input type="checkbox" name="bouldering">
-    <label>Lead Climbing</label>
-    <input type="checkbox" name="lead">
-    <label>Sport Climbing</label>
-    <input type="checkbox" name="sport">
-    <label>Speed Climbing</label>
-    <input type="checkbox" name="speed">
-    <label>Top Roping</label>
-    <input type="checkbox" name="toprope">
-    <br>
-    <br>
-    <button type="submit">Sign up</button>
-
+    <div class="Heading">
+        <h1>Belay Buddy Sign Up</h1>
+    </div>
+    <div class="signUpContent">
+        <label><b>Username</b></label>
+        <br>
+        <input type="text" placeholder="e.g. bestclimberever" name="userName">
+        <br>
+        <br>
+        <label><b>Password</b></label>
+        <br>
+        <input type="password" placeholder="e.g. password" name="password">
+        <br>
+        <br>
+        <label><b>Gender</b></label>
+        <br>
+        <select name="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="noIdentification">Choose Not to Identify</option>
+        </select>
+        <br>
+        <br>
+        <label><b>Date of Birth</b></label>
+        <br>
+        <input type="date" name="dob">
+        <br>
+        <br>
+        <label><b>Email Address</b></label>
+        <br>
+        <input type="email" placeholder="e.g. rockclimber@rock.com" name="email">
+        <br>
+        <br>
+        <label><b>Climbing Interests</b></label>
+        <div class="climbingCats">
+            <div class="columnLeft">
+                <input type="checkbox" name="bouldering">
+                <label>Bouldering</label>
+                <br>
+                <input type="checkbox" name="lead">
+                <label>Lead Climbing</label>
+                <br>
+                <input type="checkbox" name="sport">
+                <label>Sport Climbing</label>
+            </div>
+            <div class="columnRight">
+                <input type="checkbox" name="speed">
+                <label>Speed Climbing</label>
+                <br>
+                <input type="checkbox" name="toprope">
+                <label>Top Roping</label>
+                <br>
+                <input type="checkbox" name="toprope">
+                <label>Ice Climbing</label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="submit">Sign up</button>
+    </div>
 </body>
 </html>

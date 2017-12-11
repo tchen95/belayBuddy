@@ -1,3 +1,74 @@
 h1 {
 	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 50px;
+	background-color: #3377FF,
+	color: #ffffff;
+}
+
+.signUpContent {
+    text-align: center;
+    padding: 25px;
+    font-family: 'Mukta', sans-serif;
+    background-color: #3377FF;
+}
+
+label {
+    font-family: 'Mukta', sans-serif;
+    color: #525354;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block:
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block:
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+.climbingCats {
+    text-align: center;
+    width: 100%;
+}
+
+.climbingCats:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 10%;
+    font-family: 'Mukta', sans-serif;
+}
+
+.columnLeft {
+    text-align: left;
+    float: left;
+    position: absolute;
+    left: 500px;
+}
+
+.columnRight {
+    text-align: left;
+    float: right;
+    position: absolute;
+    right: 500px;
+    font-family: 'Mukta', sans-serif;
+}
+
+button {
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 15%
 }
